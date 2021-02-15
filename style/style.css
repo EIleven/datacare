@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --verdeagua: #00D9B8;
+    --azulmarinho: #00EAE5;
+    --cinzaescuro: #343D4D;
+}
+
+* {
+    max-width: 1920px;
+    min-width: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff 0% 0% no-repeat;
+    opacity: 1;
+}
+
+.main-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flexbox;
+    align-items: center;
+}
+
+.parent{
+    position: relative;
+}
+
+#logo-topo {
+    width: 342px;
+    height: 81px;
+    position: absolute;
+    left: 97px;
+    top: 59px;
+    opacity: 1;
+}
+
+#medico_a {
+    width: 626px;
+    height: 1052px;
+    top: 28px;
+    left: 1294px;
+    position: absolute;
+    display: flex;
+}
+
+#ondas {
+    width: 2267px;
+    height: 407px;
+    top: 673px;
+    left: -173px;
+    opacity: 1;
+    position: absolute;
+}
+
+#quadradinhos {
+    width: 216px;
+    height: 138px;
+    top: 923px;
+    left: 19px;
+    position: absolute;
+    opacity: 1;
+}
+
+#textura {
+    width: 1180px;
+    height: 1240px;
+    top: -80px;
+    left: 740px;
+    background: transparent 0% 0% no-repeat padding-box;
+    position: relative;
+    opacity: 0.5;
+}
+
+.info_title .first_title {
+    width: 540px;
+    height: 240px;
+    top: 171px;
+    left: 97px;
+    position: absolute;
+    color: var(--cinzaescuro);
+    text-align: left;
+    font-family: Lato, Regular, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+.info_title .second_title {
+    width: 540px;
+    height: 240px;
+
+    top: 355px;
+    left: 95.5px;
+    position: absolute;
+    color: var(--cinzaescuro);
+    text-align: left;
+    font-family: Lato, Heavy, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.info_title .first_text{
+    width: 571px;
+    height: 312px;
+    top: 442px;
+    left: 97px;
+    position: absolute;
+
+    color: var(--cinzaescuro);
+    text-align: initial;
+    font: normal normal normal 20px/24px Lato;
+    letter-spacing: 0px;
+    color: rgba(52, 61, 77, 1);
+    opacity: 1;
+}
+
+.info_title .second_text{
+    width: 571px;
+    height: 312px;
+    top: 542px;
+    left: 97px;
+    position: absolute;
+
+    color: var(--cinzaescuro);
+    text-align: initial;
+    font: normal normal normal 20px/24px Lato;
+    letter-spacing: 0px;
+    color: rgba(52, 61, 77, 1);
+    opacity: 1;
+}
+
+.info_title .third_text{
+    width: 571px;
+    height: 312px;
+    top: 642px;
+    left: 97px;
+    position: absolute;
+
+    color: var(--cinzaescuro);
+    text-align: initial;
+    letter-spacing: 0px;
+    color: rgba(52, 61, 77, 1);
+    opacity: 1;
+    font-size: 20px;
+    font-family: Lato, Regular, sans-serif;
+}
