@@ -9,12 +9,13 @@
 }
 
 * {
-    max-width: 1920px;
+    max-width: 1801px;
     min-width: none;
     margin: 0;
     padding: 0;
     top: 0;
     left: 0;
+    zoom: 95.5%;
 }
 
 body {
@@ -60,6 +61,8 @@ body {
     left: -173px;
     opacity: 1;
     position: absolute;
+
+    zoom: 1;
 }
 
 #quadradinhos {
@@ -75,7 +78,7 @@ body {
     width: 1180px;
     height: 1240px;
     top: -80px;
-    left: 740px;
+    left: 840px;
     background: transparent 0% 0% no-repeat padding-box;
     position: relative;
     opacity: 0.5;
@@ -154,4 +157,210 @@ body {
     opacity: 1;
     font-size: 20px;
     font-family: Lato, Regular, sans-serif;
+}
+
+.main-container .info_box {
+    width: 576px;
+    height: 877px;
+
+    top: 0px;
+    left: 825px;
+
+    background: #343D4D 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+    position: absolute;
+}
+
+.main-container .info_contact p {
+    width: 496px;
+    height: 81px;
+    top: 36px;
+    left: 914px;
+    
+    text-align: left;
+    font: normal normal normal 22px/27px Lato;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    
+    margin-bottom: 76 0px;
+    position: absolute;
+}
+
+.main-container .info_submit #nome{
+    width: 475px;
+    height: 70px;
+    top: 158px;
+    left: 914px;
+
+    position: absolute;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.main-container .info_submit #e-mail{
+    width: 475px;
+    height: 70px;
+    top: 268px;
+    left: 914px;
+
+    position: absolute;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.main-container .info_submit #telefone{
+    width: 475px;
+    height: 70px;
+    top: 378px;
+    left: 914px;
+
+    position: absolute;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.main-container .info_submit #empresa{
+    width: 475px;
+    height: 70px;
+    top: 488px;
+    left: 914px;
+
+    position: absolute;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.main-container .info_submit #especialidade_medica{
+    width: 475px;
+    height: 70px;
+    top: 598px;
+    left: 914px;
+
+    position: absolute;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.info_submit input::placeholder {
+    padding-left: 28px;
+
+    color: var(--cinzaescuro);
+    text-align: left;
+    font: normal normal normal 25px/30px Lato;
+    opacity: 0.66;
+}
+
+.info_submit button{
+    width: 475px;
+    height: 88px;
+    top: 726px;
+    left: 914px;
+
+    position: absolute;
+    border-radius: 44px;
+    background: var(--azulmarinho) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+
+    font-size: 30px;
+    font-family: Lato, Regular, sans-serif;
+    text-align: center;
+    font: normal normal normal 30px/36px Lato;
+    letter-spacing: 0.9px;
+}
+
+/* INÍCIO DA SEGUNDA PÁGINA*/
+
+.second-container {
+    width: 1920px;
+    height: 989px;
+    top: 1080px;
+
+    background: var(--cinzaescuro) 0% 0% no-repeat padding-box;
+
+    display: flex;
+    
+    align-items: center;
+    margin-right: 60px;
+    margin-top: -103.3px;
+    zoom: 96.55%;
+}
+
+.second-container #medico_b {
+    width: 714px;
+    height: 867px;
+    top: 1141px;
+    left: 136px;
+
+    position: absolute;
+}
+
+.second-container #bolinhas{
+    width: 284px;
+    height: 112px;
+    top: 1894px;
+    left: 1606px;
+    position: absolute;
+}
+
+.second-container .second_title {
+    width: 426px;
+    height: 60px;
+    top: 1193px;
+    left: 973px;
+    position: absolute;
+
+    font: normal normal bold 49px/55px Lato, sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.second-container .bolinhas {
+    width: 800px;
+    height: 420px;
+    top: 1292px;
+    left: 1012px;
+    position: absolute;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+
+    font-family: Lato, Regular, sans-serif;
+    font-size: 30px;
+    line-height: 64px;
+}
+
+.bolinhas li{
+    color: var(--azulmarinho);
+}
+
+.second-container button{
+    width: 535px;
+    height: 88px;
+    top: 532px;
+    left: -20px;
+
+    position: absolute;
+    border-radius: 44px;
+    background: var(--azulmarinho) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+
+    font-size: 30px;
+    font-family: Lato, Regular, sans-serif;
+    text-align: center;
+    font: normal normal normal 30px/36px Lato;
+    letter-spacing: 0.9px;
 }
