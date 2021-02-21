@@ -15,7 +15,7 @@
     padding: 0;
     top: 0;
     left: 0;
-    zoom: 95.5%;
+    zoom: 95.6%;
 }
 
 body {
@@ -36,33 +36,35 @@ body {
     position: relative;
 }
 
-#logo-topo {
-    width: 342px;
-    height: 81px;
+.main-container h1 {
+    width: 180px;
+    height: 60px;
+    left: 100px;
+    top: 20px;
+    font-size: 400%;
+    font-weight: 900;
+    color: var(--verdeagua);
     position: absolute;
-    left: 97px;
-    top: 59px;
-    opacity: 1;
+    font-family: Lato, sans-serif;
 }
 
 #medico_a {
-    width: 626px;
-    height: 1052px;
-    top: 28px;
-    left: 1294px;
+    width: 826px;
+    height: 902px;
+    top: 177px;
+    left: 1194px;
     position: absolute;
-    display: flex;
+    display: flow;
 }
 
 #ondas {
-    width: 2267px;
-    height: 407px;
+    width: 2067px;
+    height: 456px;
     top: 673px;
     left: -173px;
     opacity: 1;
     position: absolute;
 
-    zoom: 1;
 }
 
 #quadradinhos {
@@ -81,13 +83,13 @@ body {
     left: 840px;
     background: transparent 0% 0% no-repeat padding-box;
     position: relative;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .info_title .first_title {
     width: 540px;
     height: 240px;
-    top: 171px;
+    top: 131px;
     left: 97px;
     position: absolute;
     color: var(--cinzaescuro);
@@ -102,7 +104,7 @@ body {
     width: 540px;
     height: 240px;
 
-    top: 355px;
+    top: 385px;
     left: 95.5px;
     position: absolute;
     color: var(--cinzaescuro);
@@ -116,7 +118,7 @@ body {
 .info_title .first_text{
     width: 571px;
     height: 312px;
-    top: 442px;
+    top: 482px;
     left: 97px;
     position: absolute;
 
@@ -131,7 +133,7 @@ body {
 .info_title .second_text{
     width: 571px;
     height: 312px;
-    top: 542px;
+    top: 582px;
     left: 97px;
     position: absolute;
 
@@ -146,7 +148,7 @@ body {
 .info_title .third_text{
     width: 571px;
     height: 312px;
-    top: 642px;
+    top: 682px;
     left: 97px;
     position: absolute;
 
@@ -169,6 +171,7 @@ body {
     background: #343D4D 0% 0% no-repeat padding-box;
     opacity: 0.96;
     position: absolute;
+    border-radius: 20px;
 }
 
 .main-container .info_contact p {
@@ -297,12 +300,20 @@ body {
     zoom: 96.55%;
 }
 
-.second-container #medico_b {
-    width: 714px;
-    height: 867px;
+.second-container #datasus {
+    width: 632px;
+    height: 219px;
     top: 1141px;
     left: 136px;
 
+    position: absolute;
+}
+
+.second-container #esus {
+    width: 632px;
+    height: 319px;
+    left: 136px;
+    top: 1441px;
     position: absolute;
 }
 
