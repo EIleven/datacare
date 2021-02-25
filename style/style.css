@@ -25,6 +25,10 @@ body {
     opacity: 1;
 }
 
+button {
+    cursor: pointer;
+}
+
 .main-container {
     background-position: center;
     background-repeat: no-repeat;
@@ -36,23 +40,23 @@ body {
     position: relative;
 }
 
-.main-container h1 {
+.main-container .logo-top {
     width: 180px;
     height: 60px;
-    left: 100px;
+    left: 90px;
     top: 30px;
-    font-size: 444%;
+    font-size: 3rem;
     font-weight: 900;
-    color: var(--verdeagua);
+    color: #0B87FF;
     position: absolute;
     font-family: Lato, sans-serif;
 }
 
 #medico_a {
-    width: 826px;
-    height: 902px;
-    top: 177px;
-    left: 1194px;
+    width: 805px;
+    height: 962px;
+    top: 117px;
+    left: 1094px;
     position: absolute;
     display: flow;
 }
@@ -60,24 +64,15 @@ body {
 #ondas {
     width: 2067px;
     height: 456px;
-    top: 673px;
+    top: 693px;
     left: -173px;
     opacity: 1;
     position: absolute;
 
 }
 
-#quadradinhos {
-    width: 216px;
-    height: 138px;
-    top: 923px;
-    left: 19px;
-    position: absolute;
-    opacity: 1;
-}
-
 #textura {
-    width: 1180px;
+    width: 1150px;
     height: 1240px;
     top: -80px;
     left: 840px;
@@ -89,7 +84,7 @@ body {
 .info_title .first_title {
     width: 540px;
     height: 240px;
-    top: 131px;
+    top: 171px;
     left: 97px;
     position: absolute;
     color: var(--cinzaescuro);
@@ -104,7 +99,7 @@ body {
     width: 540px;
     height: 240px;
 
-    top: 385px;
+    top: 420px;
     left: 95.5px;
     position: absolute;
     color: var(--cinzaescuro);
@@ -118,7 +113,7 @@ body {
 .info_title .first_text{
     width: 571px;
     height: 312px;
-    top: 482px;
+    top: 488px;
     left: 97px;
     position: absolute;
 
@@ -133,7 +128,7 @@ body {
 .info_title .second_text{
     width: 571px;
     height: 312px;
-    top: 592px;
+    top: 598px;
     left: 97px;
     position: absolute;
 
@@ -148,7 +143,7 @@ body {
 .info_title .third_text{
     width: 571px;
     height: 312px;
-    top: 702px;
+    top: 708px;
     left: 97px;
     position: absolute;
 
@@ -166,9 +161,9 @@ body {
     height: 877px;
 
     top: 0px;
-    left: 825px;
+    left: 725px;
 
-    background: #343D4D 0% 0% no-repeat padding-box;
+    background: #2250a0a9 0% 0% no-repeat padding-box;
     opacity: 0.96;
     position: absolute;
     border-radius: 20px;
@@ -178,7 +173,7 @@ body {
     width: 496px;
     height: 81px;
     top: 36px;
-    left: 914px;
+    left: 814px;
     
     text-align: left;
     font: normal normal normal 22px/27px Lato;
@@ -194,7 +189,7 @@ body {
     width: 475px;
     height: 70px;
     top: 158px;
-    left: 914px;
+    left: 814px;
 
     position: absolute;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -207,7 +202,7 @@ body {
     width: 475px;
     height: 70px;
     top: 268px;
-    left: 914px;
+    left: 814px;
 
     position: absolute;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -220,7 +215,7 @@ body {
     width: 475px;
     height: 70px;
     top: 378px;
-    left: 914px;
+    left: 814px;
 
     position: absolute;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -233,7 +228,7 @@ body {
     width: 475px;
     height: 70px;
     top: 488px;
-    left: 914px;
+    left: 814px;
 
     position: absolute;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -246,7 +241,7 @@ body {
     width: 475px;
     height: 70px;
     top: 598px;
-    left: 914px;
+    left: 814px;
 
     position: absolute;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -268,13 +263,15 @@ body {
     width: 475px;
     height: 88px;
     top: 726px;
-    left: 914px;
+    left: 814px;
 
     position: absolute;
     border-radius: 44px;
-    background: var(--azulmarinho) 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
+    background: #0b87ff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000009c;
     opacity: 1;
+
+    color: #ffffff;
 
     font-size: 30px;
     font-family: Lato, Regular, sans-serif;
@@ -313,7 +310,7 @@ body {
     width: 632px;
     height: 319px;
     left: 136px;
-    top: 1441px;
+    top: 1651px;
     position: absolute;
 }
 
@@ -354,24 +351,68 @@ body {
 }
 
 .bolinhas li{
-    color: var(--azulmarinho);
+    color: #0B87FF;
 }
 
 .second-container button{
     width: 535px;
     height: 88px;
-    top: 532px;
+    top: 562px;
     left: -20px;
 
     position: absolute;
     border-radius: 44px;
-    background: var(--azulmarinho) 0% 0% no-repeat padding-box;
+    background: #0B87FF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
+
+    color: #ffffff;
 
     font-size: 30px;
     font-family: Lato, Regular, sans-serif;
     text-align: center;
     font: normal normal normal 30px/36px Lato;
     letter-spacing: 0.9px;
+}
+
+.second-container h3 {
+    text-align: center;
+}
+
+.map {
+    position: relative;
+
+    top: 91px;
+    left: 100px;
+}
+
+.third-container .states {
+    font-family: Lato, Regular, sans-serif;
+    color: #0B87FF;
+
+}
+
+.data_base_title #db_title {
+    position: absolute;
+
+    top: 2300px;
+    left: 50%;
+
+    font-family: Lato, sans-serif;
+    color: #0B87FF;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.data_base_title .stetoscope {
+    height: 108px;
+    position: relative;
+    left: 870px;
+    top: 103px;
+}
+
+.third-container #mg {
+    position: absolute;
+    top: 3130px;
+    left: 966px;
 }
