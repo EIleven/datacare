@@ -287,9 +287,9 @@ button {
     height: 989px;
     top: 1080px;
 
-    background: var(--cinzaescuro) 0% 0% no-repeat padding-box;
-
+    background: linear-gradient(#0B87FF, #fff) 0% 0% no-repeat padding-box;
     display: flex;
+    opacity: 5;
     
     align-items: center;
     margin-right: 60px;
