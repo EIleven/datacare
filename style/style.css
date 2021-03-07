@@ -59,6 +59,7 @@ button {
     left: 1094px;
     position: absolute;
     display: flow;
+    filter: drop-shadow(2px 4px 8px #585858)
 }
 
 #ondas {
@@ -163,8 +164,8 @@ button {
     top: 0px;
     left: 725px;
 
-    background: #2250a0a9 0% 0% no-repeat padding-box;
-    opacity: 0.96;
+    background: #0B87FF 4% 0% no-repeat padding-box;
+    opacity: 0.6;
     position: absolute;
     border-radius: 20px;
 }
@@ -267,11 +268,11 @@ button {
 
     position: absolute;
     border-radius: 44px;
-    background: #0b87ff 0% 0% no-repeat padding-box;
+    background: linear-gradient(#0b87ff, #fff) 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #0000009c;
     opacity: 1;
 
-    color: #ffffff;
+    color: black;
 
     font-size: 30px;
     font-family: Lato, Regular, sans-serif;
@@ -303,6 +304,7 @@ button {
     top: 1141px;
     left: 136px;
 
+    filter: drop-shadow(5px 5px 8px);
     position: absolute;
 }
 
@@ -384,6 +386,8 @@ button {
 
     top: 91px;
     left: 100px;
+
+    filter: drop-shadow(6px 6px #0B87FF);
 }
 
 .third-container .states {
@@ -414,5 +418,39 @@ button {
 .third-container #mg {
     position: absolute;
     top: 3130px;
-    left: 966px;
+    left: 936px;
+    background-color: transparent;
+    color: white;
+    width: 6rem;
+    border: transparent;
+}
+
+.third-container #ba {
+    position: absolute;
+    top: 2950px;
+    left: 1016px;
+    background-color: transparent;
+    color: white;
+    width: 6rem;
+    border: transparent;
+}
+
+.third-container #rj {
+    position: absolute;
+    top: 3250px;
+    left: 999px;
+    background-color: transparent;
+    color: white;
+    width: 6rem;
+    border: transparent;
+}
+
+.third-container #df {
+    position: absolute;
+    top: 3036px;
+    left:839px;
+    background-color: transparent;
+    color: white;
+    width: 6rem;
+    border: transparent;
 }
