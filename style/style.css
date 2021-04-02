@@ -390,6 +390,11 @@ button {
     filter: drop-shadow(6px 6px #0B87FF);
 }
 
+.map img {
+    height: 904px;
+    width: 900px;
+}
+
 .third-container .states {
     font-family: Lato, Regular, sans-serif;
     color: #0B87FF;
