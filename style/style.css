@@ -15,7 +15,7 @@
     padding: 0;
     top: 0;
     left: 0;
-    zoom: 95.6%;
+    zoom: 95.52%;
 }
 
 body {
@@ -314,6 +314,8 @@ button {
     left: 136px;
     top: 1651px;
     position: absolute;
+
+    filter: drop-shadow(2px 4px 8px #585858)
 }
 
 .second-container #bolinhas{
@@ -350,6 +352,8 @@ button {
     font-family: Lato, Regular, sans-serif;
     font-size: 30px;
     line-height: 64px;
+
+    filter: drop-shadow(2px 4px 18px #585858)
 }
 
 .bolinhas li{
@@ -384,10 +388,10 @@ button {
 .map {
     position: relative;
 
-    top: 91px;
-    left: 100px;
+    top: 40px;
+    left: 140px;
 
-    filter: drop-shadow(6px 6px #0B87FF);
+    filter: drop-shadow(6px 16px #0B87FF);
 }
 
 .map img {
@@ -418,44 +422,5 @@ button {
     position: relative;
     left: 870px;
     top: 103px;
-}
-
-.third-container #mg {
-    position: absolute;
-    top: 3130px;
-    left: 936px;
-    background-color: transparent;
-    color: white;
-    width: 6rem;
-    border: transparent;
-}
-
-.third-container #ba {
-    position: absolute;
-    top: 2950px;
-    left: 1016px;
-    background-color: transparent;
-    color: white;
-    width: 6rem;
-    border: transparent;
-}
-
-.third-container #rj {
-    position: absolute;
-    top: 3250px;
-    left: 999px;
-    background-color: transparent;
-    color: white;
-    width: 6rem;
-    border: transparent;
-}
-
-.third-container #df {
-    position: absolute;
-    top: 3036px;
-    left:839px;
-    background-color: transparent;
-    color: white;
-    width: 6rem;
-    border: transparent;
+    filter: drop-shadow(8px 8px 11px #0B87FF)
 }
